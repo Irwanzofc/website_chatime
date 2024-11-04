@@ -1,0 +1,385 @@
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.menu-card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.price-tag {
+    color: #FF6B6B;
+    font-weight: bold;
+}
+
+.section-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.nav-pills .nav-link.active {
+    background-color: #FF6B6B;
+}
+
+#bestseller {
+    background-color: #f8f9fa;
+}
+
+#bestseller .menu-card {
+    border: none;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#bestseller .menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.section-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin-top: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #4B0082 !important;
+    position: fixed;
+    /* Menjadikan navbar tetap di atas */
+    top: 0;
+    /* Menempatkan navbar di bagian atas */
+    width: 100%;
+    /* Memastikan navbar mengambil lebar penuh */
+    z-index: 1000;
+    /* Memastikan navbar berada di atas elemen lain */
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #FFD700;
+}
+
+.custom-navbar .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* End Navbar */
+/* Content 1 */
+.hero {
+    background-image: url('Asset/Chatime.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 100px 0;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content-1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.textcontent {
+    padding-right: 40px;
+}
+
+.hero__content {
+    background-color: #ffffffe6;
+    padding: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hero__subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4B0082;
+    margin-bottom: 10px;
+}
+
+.hero__title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #4B0082;
+    margin-bottom: 20px;
+}
+
+.hero__description {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4B0082;
+}
+
+.hero__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__img {
+    width: 592px;
+    height: 275px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Content 2 */
+.about {
+    padding: 100px 0;
+}
+
+.about__title {
+    font-size: 2.5rem;
+    color: #4B0082;
+    font-weight: 700;
+}
+
+.about__shape {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.about__description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.about__images {
+    position: relative;
+    height: 500px;
+    left: 120px;
+}
+
+.about__img {
+    position: absolute;
+    border-radius: 10px;
+}
+
+.about__img--1 {
+    width: 292px;
+    top: 0px;
+    left: 141px;
+    height: 486px;
+    object-fit: cover;
+}
+
+.about__img--2 {
+    top: 48px;
+    left: 0px;
+    width: 258px;
+    height: 305px;
+    object-fit: cover;
+}
+
+.about__img--3 {
+    top: 260px;
+    left: 324px;
+    width: 178px;
+    height: 178px;
+    object-fit: cover;
+}
+
+/* Content 7 */
+
+.rating-star {
+    text-align: center;
+}
+
+.rating {
+    color: #FFD700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating h2 {
+    padding-left: 20px;
+}
+
+.star-rating {
+    color: #FFD700;
+}
+.review-slider {
+    display: flex; /* Mengatur layout menjadi flexbox */
+    overflow-x: auto; /* Mengaktifkan scroll horizontal */
+    padding: 10px 0; /* Menambahkan padding vertikal */
+}
+
+.review-card {
+    min-width: 300px; /* Menentukan lebar minimum untuk setiap kartu review */
+    margin-right: 20px; /* Menambahkan margin antara kartu */
+    flex: 0 0 auto; /* Mencegah kartu untuk menyusut */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review-slider::-webkit-scrollbar {
+    height: 8px; /* Mengatur tinggi scrollbar */
+}
+
+.review-slider::-webkit-scrollbar-thumb {
+    background: #888; /* Warna scrollbar */
+    border-radius: 10px; /* Membuat sudut scrollbar bulat */
+}
+
+.review-slider::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Warna scrollbar saat hover */
+}
+
+/* Footer */
+footer {
+    background-color: #4B0082;
+    color: white;
+    padding: 40px 0;
+}
+
+.about-chatime img{
+    padding-bottom: 30px;
+}
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .hero__title {
+        font-size: 2.5rem;
+    }
+
+    .about__title {
+        text-align: center;
+    }
+
+    .about__title {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__images {
+        display: block;
+        left: 220px;
+    }
+
+    .hero__img {
+        width: 400px;
+    }
+
+    .hero__title {
+        font-size: 3rem;
+    }
+    .maps{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .deskripsi{
+        text-align: center;
+    }
+    .deskripsi a{
+        display: none;
+    }
+    .picture_maps{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .textcontent {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .hero__title {
+        font-size: 2rem;
+    }
+
+    .hero__content {
+        display: block;
+    }
+
+    .hero__img {
+        width: 400px;
+    }
+
+    .about__images {
+        display: block;
+        left: 90px;
+    }
+}
+
+@media (max-width: 576px) {
+    .textcontent {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero__title {
+        font-size: 1.8rem;
+    }
+
+    .about__title {
+        font-size: 2rem;
+    }
+
+    .hero__content {
+        display: block;
+    }
+
+    .hero__img {
+        width: 250px;
+    }
+
+    .about__images {
+        display: block;
+        left: 10px;
+    }
+}
