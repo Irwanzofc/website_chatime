@@ -332,6 +332,12 @@ footer {
         justify-content: center;
         text-align: center;
     }
+    *{
+    overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width: 768px) {
@@ -355,6 +361,12 @@ footer {
     .about__images {
         display: block;
         left: 90px;
+    }
+    *{
+    overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
     }
 }
 
@@ -387,5 +399,11 @@ footer {
     .about__images {
         display: block;
         left: 10px;
+    }
+    *{
+    overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
     }
 }
