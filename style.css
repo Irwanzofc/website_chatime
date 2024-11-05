@@ -279,6 +279,8 @@ body {
     background: #555; /* Warna scrollbar saat hover */
 }
 
+
+
 /* Footer */
 footer {
     background-color: #4B0082;
@@ -332,9 +334,6 @@ footer {
         justify-content: center;
         text-align: center;
     }
-    *{
-    overflow-x: hidden;
-    }
     body{
         overflow-x: hidden;
     }
@@ -355,18 +354,12 @@ footer {
     }
 
     .hero__img {
-        width: 400px;
+        width: 600px;
     }
 
     .about__images {
         display: block;
         left: 90px;
-    }
-    *{
-    overflow-x: hidden;
-    }
-    body{
-        overflow-x: hidden;
     }
 }
 
@@ -393,17 +386,11 @@ footer {
     }
 
     .hero__img {
-        width: 100px;
+        width: 400px;
     }
 
     .about__images {
         display: block;
         left: 10px;
-    }
-    *{
-    overflow-x: hidden;
-    }
-    body{
-        overflow-x: hidden;
     }
 }
